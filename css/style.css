@@ -99,7 +99,7 @@ span {
 
 footer{
     text-align: center;
-    color: goldenrod;
+    color: red;
     font-size: 2rem;
     font-style: italic;
 }
@@ -126,10 +126,14 @@ footer{
 /* Next Query */
 @media (max-width: 640px) {
 
+    .dog-profile{
+        margin: 0;  
+    }
+
     .meet-our-dogs{
-        padding-top: 1rem;
+        margin-top: 1rem;
         text-align: center;
-        display: none;
+        
     }
 
     .pet-characteristics{
@@ -139,10 +143,6 @@ footer{
 
     .section-container {
         display: block;
-    }
-
-    .dog-profile{
-        margin: 0;  
     }
 
     .list-items {
@@ -162,11 +162,24 @@ footer{
         font-weight: normal;
         font-size: 1.3rem;
     }
+    
+
 }
 
+/* Last Query */
 @media (max-width: 400px) {
+    img{
+        margin-top: 2rem;
+    }
+
     li{
         font-size: 1rem;
         line-height: 2rem;
+    }
+
+    footer{
+    color: red;
+    font-size: 1.5rem;
+    font-style: italic;
     } 
 }
