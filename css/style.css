@@ -27,7 +27,7 @@ h1 {
 
 .motto-tag{
     font-size: 2rem;
-    color: red;
+    color: darkblue;
     font-weight: normal;
 }
 
@@ -99,7 +99,7 @@ span {
 
 footer{
     text-align: center;
-    color: red;
+    color: darkblue;
     font-size: 2rem;
     font-style: italic;
 }
