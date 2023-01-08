@@ -28,7 +28,7 @@ h1 {
 .motto-tag{
     font-size: 2rem;
     color: darkblue;
-    font-weight: normal;
+    font-style: italic;
 }
 
 .meet-our-dogs{
@@ -126,6 +126,10 @@ footer{
 /* Next Query */
 @media (max-width: 640px) {
 
+    .motto-tag{
+        font-size: 1.4rem;
+    }
+
     .dog-profile{
         margin: 0;  
     }
@@ -168,6 +172,11 @@ footer{
 
 /* Last Query */
 @media (max-width: 400px) {
+    
+    .motto-tag{
+        font-size: 1rem;
+    }
+
     img{
         margin-top: 1.5rem;
     }
