@@ -169,7 +169,10 @@ footer{
 /* Last Query */
 @media (max-width: 400px) {
     img{
-        margin-top: 2rem;
+        margin-top: 1.5rem;
+    }
+    .meet-our-dogs{
+        margin: 0;
     }
 
     li{
