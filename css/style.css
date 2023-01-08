@@ -1,0 +1,171 @@
+*, html, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 6rem;
+    font-family:'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(0.4turn, #3f87a6, #ebf8e1);
+    overflow: hidden;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 6rem;
+    color: lightgoldenrodyellow;
+    margin-top: 5rem;
+}
+
+.motto-tag{
+    font-size: 2rem;
+    color: red;
+    font-weight: normal;
+}
+
+.meet-our-dogs{
+    padding-top: 2rem;
+}
+.pet-characteristics{
+    font-size: 3rem;
+    font-weight: normal;
+    margin-top: 2rem;
+}
+.dog-profile{
+    margin-left: 10rem;
+}
+
+.list-items {
+    margin: 4rem 0 0 5rem;
+    max-width: 50rem;
+    max-height: 70rem;
+}
+
+li{
+    font-size: 2rem;
+    list-style-type: circle;
+    line-height: 3.5rem;
+}
+
+.breeds{
+    margin: 1rem 0;
+}
+select {
+    font-size: 2.3rem;
+}
+
+select:hover{
+    cursor: pointer;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10vw;
+    margin-bottom: 40px;
+}
+.column {
+    flex: 1;
+}
+
+.img-container{
+    position: relative;
+    max-width: 50rem;
+    max-height: 30rem;
+}
+img {
+    max-width: 80%;
+    max-height: 250px;
+    font-size: 5rem;
+    color: lightgoldenrodyellow;
+}
+span {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+#left-column {
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    color: goldenrod;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+/*******MEDIA QUERY**********/
+
+/* Desktop first */
+@media (max-width: 780px) {
+    body {
+        font-size: 2rem;
+        scroll-behavior: smooth;
+    } 
+
+    h1 {
+        font-size: 3rem;
+    
+    }
+
+    .motto-tag{
+        font-size: 1.5rem;
+    }
+}
+
+/* Next Query */
+@media (max-width: 640px) {
+
+    .meet-our-dogs{
+        padding-top: 1rem;
+        text-align: center;
+        display: none;
+    }
+
+    .pet-characteristics{
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .section-container {
+        display: block;
+    }
+
+    .dog-profile{
+        margin: 0;  
+    }
+
+    .list-items {
+        margin-top: 1rem;
+    }
+
+    li{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    select {
+        font-size: 1.5rem;
+    }
+
+    span {
+        font-weight: normal;
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 400px) {
+    li{
+        font-size: 1rem;
+        line-height: 2rem;
+    } 
+}
